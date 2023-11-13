@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(250, 120, 69);
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 1px solid #8ee240;
+    text-align: left;
+    padding: 8px;
+  }
+div {
+  background-color: rgb(250, 238, 69);
+  border: 2px solid #361c1c;
+  padding: 9px;
+}
+footer {
+  background-color: #8b0d0d;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Style the header */
+header {
+  background-color: #9ab814;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: right;
+  width: 30%;
+  height: 200px; /* only for demonstration, should be removed */
+  background: #e92626;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0.5;
+}
+ 
